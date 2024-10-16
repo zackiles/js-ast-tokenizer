@@ -12,8 +12,12 @@
     "build": "rollup -c"
   },
   "keywords": ["javascript", "tokenizer", "embeddings", "ast", "parser", "code analysis"],
-  "author": "Your Name",
+  "author": "Zachary Iles",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zackiles/js-ast-tokenizer.git"
+  },
   "dependencies": {
     "@babel/generator": "^7.21.4",
     "@babel/parser": "^7.21.4",
@@ -39,5 +43,10 @@
   },
   "lint-staged": {
     "*.{js,css,md}": "@biomejs/biome format --write ."
+  },
+  "standard-version": {
+    "scripts": {
+      "postchangelog": "git add CHANGELOG.md"
+    }
   }
 }
