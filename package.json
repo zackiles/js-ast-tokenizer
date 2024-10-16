@@ -1,6 +1,6 @@
 {
   "name": "js-ast-tokenizer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A JavaScript code tokenizer for ease in using with code embeddings and vector storage.",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
@@ -12,7 +12,14 @@
     "format": "@biomejs/biome format --write .",
     "release": "standard-version && git push --follow-tags origin main && npm publish"
   },
-  "keywords": ["javascript", "tokenizer", "embeddings", "ast", "parser", "code analysis"],
+  "keywords": [
+    "javascript",
+    "tokenizer",
+    "embeddings",
+    "ast",
+    "parser",
+    "code analysis"
+  ],
   "author": "Zachary Iles",
   "license": "MIT",
   "repository": {
