@@ -1,6 +1,6 @@
 {
   "name": "js-ast-tokenizer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A JavaScript code tokenizer for ease in using with code embeddings and vector storage.",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
