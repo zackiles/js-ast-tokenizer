@@ -85,8 +85,8 @@ The output of the `tokenizeFileOrCode` function will be a structured object that
       ["someExternalClass.someMethod", "someExternalClass.someMethod()"]
     ]
   },
-  "content": "...",  // The original content
-  "length": 375  // Length of the input code
+  "content": "...",
+  "length": 375
 }
 ```
 
